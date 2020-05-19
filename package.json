@@ -13,7 +13,8 @@
     "typeface-roboto": "^0.0.75"
   },
   "prettier": {
-    "singleQuote": true
+    "singleQuote": true,
+    "trailingComma": "none"
   },
   "scripts": {
     "start": "react-scripts start",

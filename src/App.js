@@ -1,13 +1,15 @@
 import React from 'react';
-import { ThemeProvider, Typography, useTheme } from '@material-ui/core';
+import { ThemeProvider } from '@material-ui/core';
 
+import Main from './components/Main';
+
+import mainTheme from './themes/mainTheme';
 import './App.css';
 
 function App() {
-  const mainTheme = useTheme();
   return (
     <ThemeProvider theme={mainTheme}>
-      <Typography>Testing</Typography>
+      <Main />
     </ThemeProvider>
   );
 }
