@@ -1,345 +1,438 @@
 [
   {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Leanne",
-    "lastName": "Graham",
-    "email": "LeanneGraham@email.com",
-    "charges": [{ "label": "Charge 1", "price": 116.91 }],
-    "total": 116.91,
-    "points": 82
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Leanne",
-    "lastName": "Graham",
-    "email": "LeanneGraham@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 195.54 },
-      { "label": "Charge 2", "price": 25.48 },
-      { "label": "Charge 3", "price": 146.2 }
-    ],
-    "total": 367.22,
-    "points": 584
-  },
-  {
     "date": "2020-02-01T06:00:00.000Z",
     "firstName": "Leanne",
     "lastName": "Graham",
     "email": "LeanneGraham@email.com",
     "charges": [
-      { "label": "Charge 1", "price": 259.66 },
-      { "label": "Charge 2", "price": 91.77 },
-      { "label": "Charge 3", "price": 158.51 },
-      { "label": "Charge 4", "price": 44.63 }
+      { "label": "Charge 1", "price": 214.53 },
+      { "label": "Charge 2", "price": 274.09 }
     ],
-    "total": 554.57,
-    "points": 958
+    "total": 488.62,
+    "points": 826
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Leanne",
+    "lastName": "Graham",
+    "email": "LeanneGraham@email.com",
+    "charges": [{ "label": "Charge 1", "price": 268.99 }],
+    "total": 268.99,
+    "points": 386
   },
   {
     "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Leanne",
+    "lastName": "Graham",
+    "email": "LeanneGraham@email.com",
+    "charges": [{ "label": "Charge 1", "price": 338.54 }],
+    "total": 338.54,
+    "points": 526
+  },
+  {
+    "date": "2020-03-01T06:00:00.000Z",
     "firstName": "Ervin",
     "lastName": "Howell",
     "email": "ErvinHowell@email.com",
-    "charges": [{ "label": "Charge 1", "price": 131.69 }],
-    "total": 131.69,
+    "charges": [
+      { "label": "Charge 1", "price": 194.67 },
+      { "label": "Charge 2", "price": 313.72 },
+      { "label": "Charge 3", "price": 303.88 }
+    ],
+    "total": 812.27,
+    "points": 1474
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Ervin",
+    "lastName": "Howell",
+    "email": "ErvinHowell@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 317.57 },
+      { "label": "Charge 2", "price": 315.66 },
+      { "label": "Charge 3", "price": 224.27 }
+    ],
+    "total": 857.5,
+    "points": 1564
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Ervin",
+    "lastName": "Howell",
+    "email": "ErvinHowell@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 81.9 },
+      { "label": "Charge 2", "price": 145.36 },
+      { "label": "Charge 3", "price": 225.82 },
+      { "label": "Charge 4", "price": 41.49 }
+    ],
+    "total": 494.57,
+    "points": 838
+  },
+  {
+    "date": "2020-03-01T06:00:00.000Z",
+    "firstName": "Ervin",
+    "lastName": "Howell",
+    "email": "ErvinHowell@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 308.7 },
+      { "label": "Charge 2", "price": 40.5 },
+      { "label": "Charge 3", "price": 179.09 },
+      { "label": "Charge 4", "price": 39.08 }
+    ],
+    "total": 567.37,
+    "points": 984
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Ervin",
+    "lastName": "Howell",
+    "email": "ErvinHowell@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 245.15 },
+      { "label": "Charge 2", "price": 92.73 },
+      { "label": "Charge 3", "price": 289.58 }
+    ],
+    "total": 627.46,
+    "points": 1104
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Clementine",
+    "lastName": "Bauch",
+    "email": "ClementineBauch@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 341.47 },
+      { "label": "Charge 2", "price": 135.94 },
+      { "label": "Charge 3", "price": 237.82 },
+      { "label": "Charge 4", "price": 287.63 }
+    ],
+    "total": 1002.86,
+    "points": 1854
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Clementine",
+    "lastName": "Bauch",
+    "email": "ClementineBauch@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 0.56 },
+      { "label": "Charge 2", "price": 240.06 },
+      { "label": "Charge 3", "price": 217.22 }
+    ],
+    "total": 457.84,
+    "points": 764
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Clementine",
+    "lastName": "Bauch",
+    "email": "ClementineBauch@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 85.03 },
+      { "label": "Charge 2", "price": 329.42 },
+      { "label": "Charge 3", "price": 246.01 },
+      { "label": "Charge 4", "price": 253.17 }
+    ],
+    "total": 913.63,
+    "points": 1676
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Patricia",
+    "lastName": "Lebsack",
+    "email": "PatriciaLebsack@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 105.44 },
+      { "label": "Charge 2", "price": 209.22 },
+      { "label": "Charge 3", "price": 61.63 }
+    ],
+    "total": 376.29,
+    "points": 602
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Patricia",
+    "lastName": "Lebsack",
+    "email": "PatriciaLebsack@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 104.69 },
+      { "label": "Charge 2", "price": 45.32 },
+      { "label": "Charge 3", "price": 36.21 }
+    ],
+    "total": 186.22,
+    "points": 222
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Patricia",
+    "lastName": "Lebsack",
+    "email": "PatriciaLebsack@email.com",
+    "charges": [{ "label": "Charge 1", "price": 113.12 }],
+    "total": 113.12,
+    "points": 76
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Patricia",
+    "lastName": "Lebsack",
+    "email": "PatriciaLebsack@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 142.74 },
+      { "label": "Charge 2", "price": 217.49 },
+      { "label": "Charge 3", "price": 208.37 }
+    ],
+    "total": 568.6,
+    "points": 986
+  },
+  {
+    "date": "2020-03-01T06:00:00.000Z",
+    "firstName": "Chelsey",
+    "lastName": "Dietrich",
+    "email": "ChelseyDietrich@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 157.75 },
+      { "label": "Charge 2", "price": 280.59 },
+      { "label": "Charge 3", "price": 42.35 },
+      { "label": "Charge 4", "price": 348.63 }
+    ],
+    "total": 829.32,
+    "points": 1508
+  },
+  {
+    "date": "2020-03-01T06:00:00.000Z",
+    "firstName": "Chelsey",
+    "lastName": "Dietrich",
+    "email": "ChelseyDietrich@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 185.73 },
+      { "label": "Charge 2", "price": 1.2 },
+      { "label": "Charge 3", "price": 26.73 },
+      { "label": "Charge 4", "price": 307.41 }
+    ],
+    "total": 521.07,
+    "points": 892
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Chelsey",
+    "lastName": "Dietrich",
+    "email": "ChelseyDietrich@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 5.66 },
+      { "label": "Charge 2", "price": 303.61 },
+      { "label": "Charge 3", "price": 269.66 },
+      { "label": "Charge 4", "price": 125.37 }
+    ],
+    "total": 704.3,
+    "points": 1258
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Chelsey",
+    "lastName": "Dietrich",
+    "email": "ChelseyDietrich@email.com",
+    "charges": [{ "label": "Charge 1", "price": 177.43 }],
+    "total": 177.43,
+    "points": 204
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Chelsey",
+    "lastName": "Dietrich",
+    "email": "ChelseyDietrich@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 217.42 },
+      { "label": "Charge 2", "price": 53.46 }
+    ],
+    "total": 270.88,
+    "points": 390
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Mrs.",
+    "lastName": "Dennis",
+    "email": "Mrs.Dennis@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 251.27 },
+      { "label": "Charge 2", "price": 54.51 },
+      { "label": "Charge 3", "price": 240.95 }
+    ],
+    "total": 546.73,
+    "points": 942
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Mrs.",
+    "lastName": "Dennis",
+    "email": "Mrs.Dennis@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 2.3 },
+      { "label": "Charge 2", "price": 144.16 },
+      { "label": "Charge 3", "price": 208.65 },
+      { "label": "Charge 4", "price": 314.87 }
+    ],
+    "total": 669.98,
+    "points": 1188
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Mrs.",
+    "lastName": "Dennis",
+    "email": "Mrs.Dennis@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 92.66 },
+      { "label": "Charge 2", "price": 279.6 }
+    ],
+    "total": 372.26,
+    "points": 594
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Kurtis",
+    "lastName": "Weissnat",
+    "email": "KurtisWeissnat@email.com",
+    "charges": [{ "label": "Charge 1", "price": 290.29 }],
+    "total": 290.29,
+    "points": 430
+  },
+  {
+    "date": "2020-03-01T06:00:00.000Z",
+    "firstName": "Kurtis",
+    "lastName": "Weissnat",
+    "email": "KurtisWeissnat@email.com",
+    "charges": [{ "label": "Charge 1", "price": 128.19 }],
+    "total": 128.19,
+    "points": 106
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Kurtis",
+    "lastName": "Weissnat",
+    "email": "KurtisWeissnat@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 43.06 },
+      { "label": "Charge 2", "price": 285.58 },
+      { "label": "Charge 3", "price": 222.68 }
+    ],
+    "total": 551.32,
+    "points": 952
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Nicholas",
+    "lastName": "Runolfsdottir",
+    "email": "NicholasRunolfsdottir@email.com",
+    "charges": [{ "label": "Charge 1", "price": 196.08 }],
+    "total": 196.08,
+    "points": 242
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Nicholas",
+    "lastName": "Runolfsdottir",
+    "email": "NicholasRunolfsdottir@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 186.22 },
+      { "label": "Charge 2", "price": 337.27 }
+    ],
+    "total": 523.49,
+    "points": 896
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Nicholas",
+    "lastName": "Runolfsdottir",
+    "email": "NicholasRunolfsdottir@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 209.87 },
+      { "label": "Charge 2", "price": 295.28 },
+      { "label": "Charge 3", "price": 307.45 },
+      { "label": "Charge 4", "price": 315.87 }
+    ],
+    "total": 1128.47,
+    "points": 2106
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Nicholas",
+    "lastName": "Runolfsdottir",
+    "email": "NicholasRunolfsdottir@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 167.99 },
+      { "label": "Charge 2", "price": 53.98 }
+    ],
+    "total": 221.97,
+    "points": 292
+  },
+  {
+    "date": "2020-04-01T05:00:00.000Z",
+    "firstName": "Nicholas",
+    "lastName": "Runolfsdottir",
+    "email": "NicholasRunolfsdottir@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 28.21 },
+      { "label": "Charge 2", "price": 19.13 }
+    ],
+    "total": 47.34,
+    "points": 0
+  },
+  {
+    "date": "2020-05-01T05:00:00.000Z",
+    "firstName": "Glenna",
+    "lastName": "Reichert",
+    "email": "GlennaReichert@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 188.24 },
+      { "label": "Charge 2", "price": 67.48 }
+    ],
+    "total": 255.72,
+    "points": 360
+  },
+  {
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Glenna",
+    "lastName": "Reichert",
+    "email": "GlennaReichert@email.com",
+    "charges": [{ "label": "Charge 1", "price": 131.96 }],
+    "total": 131.96,
     "points": 112
   },
   {
     "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Ervin",
-    "lastName": "Howell",
-    "email": "ErvinHowell@email.com",
-    "charges": [{ "label": "Charge 1", "price": 13.54 }],
-    "total": 13.54,
-    "points": 0
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Clementine",
-    "lastName": "Bauch",
-    "email": "ClementineBauch@email.com",
-    "charges": [{ "label": "Charge 1", "price": 65.47 }],
-    "total": 65.47,
-    "points": 15
-  },
-  {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Clementine",
-    "lastName": "Bauch",
-    "email": "ClementineBauch@email.com",
-    "charges": [{ "label": "Charge 1", "price": 185.66 }],
-    "total": 185.66,
-    "points": 220
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Clementine",
-    "lastName": "Bauch",
-    "email": "ClementineBauch@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 301.26 },
-      { "label": "Charge 2", "price": 191.85 }
-    ],
-    "total": 493.11,
-    "points": 836
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Clementine",
-    "lastName": "Bauch",
-    "email": "ClementineBauch@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 280.02 },
-      { "label": "Charge 2", "price": 153.48 },
-      { "label": "Charge 3", "price": 334.4 },
-      { "label": "Charge 4", "price": 174.17 }
-    ],
-    "total": 942.07,
-    "points": 1734
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Clementine",
-    "lastName": "Bauch",
-    "email": "ClementineBauch@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 126.21 },
-      { "label": "Charge 2", "price": 190.64 },
-      { "label": "Charge 3", "price": 29.37 }
-    ],
-    "total": 346.22,
-    "points": 542
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Patricia",
-    "lastName": "Lebsack",
-    "email": "PatriciaLebsack@email.com",
-    "charges": [{ "label": "Charge 1", "price": 260.53 }],
-    "total": 260.53,
-    "points": 370
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Patricia",
-    "lastName": "Lebsack",
-    "email": "PatriciaLebsack@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 44.62 },
-      { "label": "Charge 2", "price": 136.72 }
-    ],
-    "total": 181.34,
-    "points": 212
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Patricia",
-    "lastName": "Lebsack",
-    "email": "PatriciaLebsack@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 335.09 },
-      { "label": "Charge 2", "price": 50.32 }
-    ],
-    "total": 385.41,
-    "points": 620
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Patricia",
-    "lastName": "Lebsack",
-    "email": "PatriciaLebsack@email.com",
-    "charges": [{ "label": "Charge 1", "price": 252.01 }],
-    "total": 252.01,
-    "points": 354
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Chelsey",
-    "lastName": "Dietrich",
-    "email": "ChelseyDietrich@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 173.58 },
-      { "label": "Charge 2", "price": 143.08 },
-      { "label": "Charge 3", "price": 177.4 }
-    ],
-    "total": 494.06,
-    "points": 838
-  },
-  {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Chelsey",
-    "lastName": "Dietrich",
-    "email": "ChelseyDietrich@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 341.08 },
-      { "label": "Charge 2", "price": 1.12 },
-      { "label": "Charge 3", "price": 125.52 },
-      { "label": "Charge 4", "price": 257.72 }
-    ],
-    "total": 725.44,
-    "points": 1300
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Mrs.",
-    "lastName": "Dennis",
-    "email": "Mrs.Dennis@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 184.15 },
-      { "label": "Charge 2", "price": 195.56 },
-      { "label": "Charge 3", "price": 302.97 }
-    ],
-    "total": 682.68,
-    "points": 1214
-  },
-  {
-    "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Mrs.",
-    "lastName": "Dennis",
-    "email": "Mrs.Dennis@email.com",
-    "charges": [{ "label": "Charge 1", "price": 47.3 }],
-    "total": 47.3,
-    "points": 0
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Mrs.",
-    "lastName": "Dennis",
-    "email": "Mrs.Dennis@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 131.27 },
-      { "label": "Charge 2", "price": 26.14 }
-    ],
-    "total": 157.41,
-    "points": 164
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Kurtis",
-    "lastName": "Weissnat",
-    "email": "KurtisWeissnat@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 204.3 },
-      { "label": "Charge 2", "price": 167.05 },
-      { "label": "Charge 3", "price": 29.42 },
-      { "label": "Charge 4", "price": 59.1 }
-    ],
-    "total": 459.87,
-    "points": 768
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Kurtis",
-    "lastName": "Weissnat",
-    "email": "KurtisWeissnat@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 215.79 },
-      { "label": "Charge 2", "price": 84.15 },
-      { "label": "Charge 3", "price": 321.64 },
-      { "label": "Charge 4", "price": 281.22 }
-    ],
-    "total": 902.8,
-    "points": 1654
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Nicholas",
-    "lastName": "Runolfsdottir",
-    "email": "NicholasRunolfsdottir@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 170.21 },
-      { "label": "Charge 2", "price": 144.25 },
-      { "label": "Charge 3", "price": 289.69 }
-    ],
-    "total": 604.15,
-    "points": 1058
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
-    "firstName": "Nicholas",
-    "lastName": "Runolfsdottir",
-    "email": "NicholasRunolfsdottir@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 53.06 },
-      { "label": "Charge 2", "price": 49.55 },
-      { "label": "Charge 3", "price": 267.16 }
-    ],
-    "total": 369.77,
-    "points": 588
-  },
-  {
-    "date": "2020-02-01T06:00:00.000Z",
-    "firstName": "Nicholas",
-    "lastName": "Runolfsdottir",
-    "email": "NicholasRunolfsdottir@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 160.6 },
-      { "label": "Charge 2", "price": 194.1 }
-    ],
-    "total": 354.7,
-    "points": 558
-  },
-  {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Nicholas",
-    "lastName": "Runolfsdottir",
-    "email": "NicholasRunolfsdottir@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 82.48 },
-      { "label": "Charge 2", "price": 250.02 },
-      { "label": "Charge 3", "price": 63.67 },
-      { "label": "Charge 4", "price": 87.7 }
-    ],
-    "total": 483.87,
-    "points": 816
-  },
-  {
-    "date": "2020-04-01T05:00:00.000Z",
     "firstName": "Glenna",
     "lastName": "Reichert",
     "email": "GlennaReichert@email.com",
     "charges": [
-      { "label": "Charge 1", "price": 127.72 },
-      { "label": "Charge 2", "price": 185.45 }
+      { "label": "Charge 1", "price": 342.33 },
+      { "label": "Charge 2", "price": 314 },
+      { "label": "Charge 3", "price": 287.57 }
     ],
-    "total": 313.17,
-    "points": 476
+    "total": 943.9,
+    "points": 1736
   },
   {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Glenna",
-    "lastName": "Reichert",
-    "email": "GlennaReichert@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 323.7 },
-      { "label": "Charge 2", "price": 176.3 },
-      { "label": "Charge 3", "price": 23.19 },
-      { "label": "Charge 4", "price": 69.04 }
-    ],
-    "total": 592.23,
-    "points": 1034
-  },
-  {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Glenna",
-    "lastName": "Reichert",
-    "email": "GlennaReichert@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 286.74 },
-      { "label": "Charge 2", "price": 328.47 },
-      { "label": "Charge 3", "price": 168.72 }
-    ],
-    "total": 783.93,
-    "points": 1416
+    "date": "2020-02-01T06:00:00.000Z",
+    "firstName": "Clementina",
+    "lastName": "DuBuque",
+    "email": "ClementinaDuBuque@email.com",
+    "charges": [{ "label": "Charge 1", "price": 182.8 }],
+    "total": 182.8,
+    "points": 214
   },
   {
     "date": "2020-03-01T06:00:00.000Z",
-    "firstName": "Glenna",
-    "lastName": "Reichert",
-    "email": "GlennaReichert@email.com",
-    "charges": [{ "label": "Charge 1", "price": 332.54 }],
-    "total": 332.54,
-    "points": 514
+    "firstName": "Clementina",
+    "lastName": "DuBuque",
+    "email": "ClementinaDuBuque@email.com",
+    "charges": [
+      { "label": "Charge 1", "price": 74.26 },
+      { "label": "Charge 2", "price": 306.76 },
+      { "label": "Charge 3", "price": 207.93 },
+      { "label": "Charge 4", "price": 128.43 }
+    ],
+    "total": 717.38,
+    "points": 1284
   },
   {
     "date": "2020-04-01T05:00:00.000Z",
@@ -347,46 +440,37 @@
     "lastName": "DuBuque",
     "email": "ClementinaDuBuque@email.com",
     "charges": [
-      { "label": "Charge 1", "price": 93.88 },
-      { "label": "Charge 2", "price": 107.4 }
+      { "label": "Charge 1", "price": 144.18 },
+      { "label": "Charge 2", "price": 58.75 }
     ],
-    "total": 201.28,
-    "points": 252
+    "total": 202.93,
+    "points": 254
   },
   {
-    "date": "2020-05-01T05:00:00.000Z",
+    "date": "2020-02-01T06:00:00.000Z",
     "firstName": "Clementina",
     "lastName": "DuBuque",
     "email": "ClementinaDuBuque@email.com",
     "charges": [
-      { "label": "Charge 1", "price": 279.31 },
-      { "label": "Charge 2", "price": 55.96 }
+      { "label": "Charge 1", "price": 303.93 },
+      { "label": "Charge 2", "price": 240.79 },
+      { "label": "Charge 3", "price": 285.33 }
     ],
-    "total": 335.27,
-    "points": 520
+    "total": 830.05,
+    "points": 1510
   },
   {
-    "date": "2020-05-01T05:00:00.000Z",
+    "date": "2020-04-01T05:00:00.000Z",
     "firstName": "Clementina",
     "lastName": "DuBuque",
     "email": "ClementinaDuBuque@email.com",
     "charges": [
-      { "label": "Charge 1", "price": 250.09 },
-      { "label": "Charge 2", "price": 109.57 }
+      { "label": "Charge 1", "price": 136.06 },
+      { "label": "Charge 2", "price": 117.94 },
+      { "label": "Charge 3", "price": 185.94 },
+      { "label": "Charge 4", "price": 62.43 }
     ],
-    "total": 359.66,
-    "points": 568
-  },
-  {
-    "date": "2020-05-01T05:00:00.000Z",
-    "firstName": "Clementina",
-    "lastName": "DuBuque",
-    "email": "ClementinaDuBuque@email.com",
-    "charges": [
-      { "label": "Charge 1", "price": 257.84 },
-      { "label": "Charge 2", "price": 44.79 }
-    ],
-    "total": 302.63,
-    "points": 454
+    "total": 502.37,
+    "points": 854
   }
 ]

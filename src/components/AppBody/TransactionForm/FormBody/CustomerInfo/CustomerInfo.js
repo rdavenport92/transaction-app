@@ -27,14 +27,19 @@ const CustomerInfo = ({
   setCustomerLastName,
   customerEmail,
   setCustomerEmail,
-  clearTransaction
+  clearTransaction,
+  clearTransactionBtnDisabled
 }) => {
   const classes = useStyles();
   return (
     <div className={classes.customerInfo}>
       <div className={classes.titleAndClearWrapper}>
         <Typography variant="h5">Customer Info</Typography>
-        <Button color="primary" onClick={clearTransaction}>
+        <Button
+          disabled={clearTransactionBtnDisabled}
+          color="primary"
+          onClick={clearTransaction}
+        >
           clear transaction
         </Button>
       </div>

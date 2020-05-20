@@ -69,6 +69,10 @@ const TransactionForm = () => {
   const [charges, setCharges] = useState([]);
   const [total, setTotal] = useState(0);
   const [points, setPoints] = useState(0);
+  const [
+    clearTransactionBtnDisabled,
+    setClearTransactionBtnDisabled
+  ] = useState(true);
 
   const classes = useStyles();
 
@@ -81,6 +85,15 @@ const TransactionForm = () => {
       setPoints(newPoints);
     })();
   }, [charges]);
+
+  useEffect(() => {
+    const isDisabled =
+      !customerFirstName &&
+      !customerLastName &&
+      !customerEmail &&
+      !charges.length;
+    setClearTransactionBtnDisabled(isDisabled);
+  }, [customerFirstName, customerLastName, customerEmail, charges]);
 
   return (
     <div className={classes.mainWrapper}>
@@ -101,6 +114,7 @@ const TransactionForm = () => {
             setCustomerEmail
           )
         }
+        clearTransactionBtnDisabled={clearTransactionBtnDisabled}
       ></FormBody>
       <FormFooter
         total={total}

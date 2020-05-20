@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+  Button,
   makeStyles,
   Paper,
   Typography,
@@ -64,14 +65,13 @@ const Charges = ({ setDialogIsOpen, charges, removeCharge }) => {
                 <TableCell>{charge.label}</TableCell>
                 <TableCell>${charge.price}</TableCell>
                 <TableCell>
-                  <Fab
+                  <Button
                     className={classes.deleteButton}
                     onClick={() => removeCharge(index)}
-                    color="secondary"
                     size="small"
                   >
                     <DeleteIcon />
-                  </Fab>
+                  </Button>
                 </TableCell>
               </TableRow>
             ))}

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Paper, makeStyles } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core';
 
 import CustomerInfo from './CustomerInfo/CustomerInfo';
 import Charges from './Charges/Charges';
@@ -34,7 +34,8 @@ const FormBody = ({
   setCustomerLastName,
   customerEmail,
   setCustomerEmail,
-  clearTransaction
+  clearTransaction,
+  clearTransactionBtnDisabled
 }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false);
   const classes = useStyles();
@@ -48,6 +49,7 @@ const FormBody = ({
         customerEmail={customerEmail}
         setCustomerEmail={setCustomerEmail}
         clearTransaction={clearTransaction}
+        clearTransactionBtnDisabled={clearTransactionBtnDisabled}
       />
 
       <Charges
