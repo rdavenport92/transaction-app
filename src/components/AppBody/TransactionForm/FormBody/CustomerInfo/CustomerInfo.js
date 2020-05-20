@@ -8,7 +8,11 @@ const useStyles = makeStyles(() => ({
   },
   customerInfoForm: {
     display: 'flex',
-    flexDirection: 'column'
+    justifyContent: 'space-evenly'
+  },
+  textField: {
+    flex: 1,
+    padding: '8px'
   }
 }));
 
@@ -27,18 +31,21 @@ const CustomerInfo = ({
       <form onSubmit={(e) => e.preventDefault}>
         <div className={classes.customerInfoForm}>
           <TextField
+            className={classes.textField}
             value={customerFirstName}
             onChange={(e) => setCustomerFirstName(e.target.value)}
             required
             label="First Name"
           ></TextField>
           <TextField
+            className={classes.textField}
             value={customerLastName}
             onChange={(e) => setCustomerLastName(e.target.value)}
             required
             label="Last Name"
           ></TextField>
           <TextField
+            className={classes.textField}
             value={customerEmail}
             onChange={(e) => setCustomerEmail(e.target.value)}
             required

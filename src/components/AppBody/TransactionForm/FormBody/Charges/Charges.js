@@ -16,7 +16,12 @@ import DeleteIcon from '@material-ui/icons/Delete';
 
 const useStyles = makeStyles(() => ({
   chargesWrapper: {
-    flex: '1'
+    flex: '1',
+    display: 'flex',
+    flexDirection: 'column'
+  },
+  chargesTable: {
+    height: '100%'
   },
   chargesHeader: {
     display: 'flex',
@@ -43,7 +48,7 @@ const Charges = ({ setDialogIsOpen, charges, removeCharge }) => {
           <AddIcon />
         </Fab>
       </div>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} className={classes.chargesTable}>
         <Table>
           <TableHead>
             <TableRow>

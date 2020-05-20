@@ -18,5 +18,23 @@ exports.convertPriceToPoints = (price) =>
 exports.postTransaction = (transactionDetails) =>
   // simulating posting a transaction to the back end
   new Promise((res) => {
+    const transactions = JSON.parse(
+      sessionStorage.getItem('transaction-collection') || '[]'
+    );
+    transactions.push(transactionDetails);
+    sessionStorage.setItem(
+      'transaction-collection',
+      JSON.stringify(transactions)
+    );
     res(transactionDetails);
   });
+
+exports.fetchTransactions = () => {
+  return new Promise((res) => {
+    const generatedTransactions = require('./mockData/mockData.json');
+    const userCreatedTransactions = JSON.parse(
+      sessionStorage.getItem('transaction-collection') || '[]'
+    );
+    res([...generatedTransactions, ...userCreatedTransactions]);
+  });
+};
