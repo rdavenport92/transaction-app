@@ -16,12 +16,9 @@ import DeleteIcon from '@material-ui/icons/Delete';
 
 const useStyles = makeStyles(() => ({
   chargesWrapper: {
-    flex: '1',
+    flex: 1,
     display: 'flex',
     flexDirection: 'column'
-  },
-  chargesTable: {
-    height: '100%'
   },
   chargesHeader: {
     display: 'flex',
@@ -29,7 +26,7 @@ const useStyles = makeStyles(() => ({
     padding: '8px'
   },
   chargesTitle: {
-    flex: '1'
+    padding: '15px'
   },
   deleteButton: {
     marginRight: '4px'
@@ -41,24 +38,31 @@ const Charges = ({ setDialogIsOpen, charges, removeCharge }) => {
   return (
     <div className={classes.chargesWrapper}>
       <div className={classes.chargesHeader}>
-        <Typography className={classes.chargesTitle} variant="h5">
-          Charges
-        </Typography>
-        <Fab color="secondary" onClick={() => setDialogIsOpen(true)}>
+        <div className={classes.chargesTitle}>
+          <Typography variant="h5">Add Charge</Typography>
+        </div>
+        <Fab
+          size="medium"
+          color="secondary"
+          onClick={() => setDialogIsOpen(true)}
+        >
           <AddIcon />
         </Fab>
       </div>
-      <TableContainer component={Paper} className={classes.chargesTable}>
+      <TableContainer component={Paper}>
         <Table>
           <TableHead>
             <TableRow>
               <TableCell>Service/Product</TableCell>
               <TableCell>Price</TableCell>
+              <TableCell></TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
             {charges.map((charge, index) => (
               <TableRow key={`charge-row-${index}`}>
+                <TableCell>{charge.label}</TableCell>
+                <TableCell>${charge.price}</TableCell>
                 <TableCell>
                   <Fab
                     className={classes.deleteButton}
@@ -68,9 +72,7 @@ const Charges = ({ setDialogIsOpen, charges, removeCharge }) => {
                   >
                     <DeleteIcon />
                   </Fab>
-                  {charge.label}
                 </TableCell>
-                <TableCell>${charge.price}</TableCell>
               </TableRow>
             ))}
           </TableBody>

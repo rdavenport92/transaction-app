@@ -37,7 +37,7 @@ const useStyles = makeStyles(() => ({
   }
 }));
 
-const FormFooter = ({ total, points, clearTransaction, submitTransaction }) => {
+const FormFooter = ({ total, points, submitTransaction }) => {
   const classes = useStyles();
   return (
     <AppBar position="relative">
@@ -46,14 +46,9 @@ const FormFooter = ({ total, points, clearTransaction, submitTransaction }) => {
           <Typography variant="h5">Total: ${total}</Typography>
         </div>
         <div className={classes.points}>
-          {' '}
           <Typography variant="h5">Points: {points}</Typography>
         </div>
         <div className={classes.actions}>
-          {' '}
-          <Button color="secondary" onClick={clearTransaction}>
-            clear
-          </Button>
           <Button
             variant="contained"
             color="secondary"

@@ -19,7 +19,8 @@ const useStyles = makeStyles(() => ({
 
 const calculateTotal = (charges) =>
   charges.reduce(
-    (prevTotal, currentCharge) => prevTotal + currentCharge.price,
+    (prevTotal, currentCharge) =>
+      Math.round((prevTotal + currentCharge.price) * 100) / 100,
     0
   );
 
@@ -28,6 +29,26 @@ const calculatePoints = async (totalPrice) => {
 };
 
 // component
+
+const submitTransaction = async (
+  transactionDetails,
+  setCharges,
+  setCustomerFirstName,
+  setCustomerLastName,
+  setCustomerEmail
+) => {
+  const result = await postTransaction(transactionDetails);
+  if (result) {
+    // TODO: success toast message
+    clearTransaction(
+      setCharges,
+      setCustomerFirstName,
+      setCustomerLastName,
+      setCustomerEmail
+    );
+  }
+  // TODO: handle failed post
+};
 
 const clearTransaction = (
   setCharges,
@@ -61,29 +82,6 @@ const TransactionForm = () => {
     })();
   }, [charges]);
 
-  const submitTransaction = async () => {
-    const transactionDetails = {
-      date: new Date(),
-      firstName: customerFirstName,
-      lastName: customerLastName,
-      email: customerEmail,
-      charges,
-      total,
-      points
-    };
-    const result = await postTransaction(transactionDetails);
-    if (result) {
-      // TODO: success toast message
-      clearTransaction(
-        setCharges,
-        setCustomerFirstName,
-        setCustomerLastName,
-        setCustomerEmail
-      );
-    }
-    // TODO: handle failed post
-  };
-
   return (
     <div className={classes.mainWrapper}>
       <FormBody
@@ -95,10 +93,6 @@ const TransactionForm = () => {
         setCustomerLastName={setCustomerLastName}
         customerEmail={customerEmail}
         setCustomerEmail={setCustomerEmail}
-      ></FormBody>
-      <FormFooter
-        total={total}
-        points={points}
         clearTransaction={() =>
           clearTransaction(
             setCharges,
@@ -107,7 +101,27 @@ const TransactionForm = () => {
             setCustomerEmail
           )
         }
-        submitTransaction={submitTransaction}
+      ></FormBody>
+      <FormFooter
+        total={total}
+        points={points}
+        submitTransaction={() =>
+          submitTransaction(
+            {
+              date: new Date(),
+              firstName: customerFirstName,
+              lastName: customerLastName,
+              email: customerEmail,
+              charges,
+              total,
+              points
+            },
+            setCharges,
+            setCustomerFirstName,
+            setCustomerLastName,
+            setCustomerEmail
+          )
+        }
       ></FormFooter>
     </div>
   );

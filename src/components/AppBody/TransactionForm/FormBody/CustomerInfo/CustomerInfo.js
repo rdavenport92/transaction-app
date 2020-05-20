@@ -1,10 +1,14 @@
 import React from 'react';
 
-import { makeStyles, Paper, TextField, Typography } from '@material-ui/core';
+import { makeStyles, Button, TextField, Typography } from '@material-ui/core';
 
 const useStyles = makeStyles(() => ({
   customerInfo: {
     padding: '15px'
+  },
+  titleAndClearWrapper: {
+    display: 'flex',
+    justifyContent: 'space-between'
   },
   customerInfoForm: {
     display: 'flex',
@@ -22,12 +26,19 @@ const CustomerInfo = ({
   customerLastName,
   setCustomerLastName,
   customerEmail,
-  setCustomerEmail
+  setCustomerEmail,
+  clearTransaction
 }) => {
   const classes = useStyles();
   return (
-    <Paper className={classes.customerInfo}>
-      <Typography variant="h5">Customer Info</Typography>
+    <div className={classes.customerInfo}>
+      <div className={classes.titleAndClearWrapper}>
+        <Typography variant="h5">Customer Info</Typography>
+        <Button color="primary" onClick={clearTransaction}>
+          clear transaction
+        </Button>
+      </div>
+      <br />
       <form onSubmit={(e) => e.preventDefault}>
         <div className={classes.customerInfoForm}>
           <TextField
@@ -54,7 +65,7 @@ const CustomerInfo = ({
           ></TextField>
         </div>
       </form>
-    </Paper>
+    </div>
   );
 };
 

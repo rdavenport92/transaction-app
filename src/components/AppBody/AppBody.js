@@ -1,15 +1,15 @@
 import React from 'react';
 
 import TransactionForm from './TransactionForm/TransactionForm';
-import TransactionHistory from './TransactionHistory/TransactionHistory';
+import CustomerRecords from './CustomerRecords/CustomerRecords';
 
 const renderBody = (tabs, selectedTab) => {
   const activeTabLabel = tabs[selectedTab].label;
   switch (activeTabLabel) {
     case 'Transaction Form':
       return <TransactionForm></TransactionForm>;
-    case 'History':
-      return <TransactionHistory></TransactionHistory>;
+    case 'Customer Records':
+      return <CustomerRecords></CustomerRecords>;
     default:
       break;
   }

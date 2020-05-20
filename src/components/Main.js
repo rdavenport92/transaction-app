@@ -19,7 +19,7 @@ const Main = () => {
 
   const classes = useStyles();
 
-  const tabs = [{ label: 'Transaction Form' }, { label: 'History' }];
+  const tabs = [{ label: 'Transaction Form' }, { label: 'Customer Records' }];
 
   return (
     <div className={classes.root}>

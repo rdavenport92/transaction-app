@@ -16,8 +16,7 @@ const useStyles = makeStyles(() => ({
   },
   formPaper: {
     display: 'flex',
-    flexDirection: 'column',
-    height: '100%'
+    flexDirection: 'column'
   }
 }));
 
@@ -34,28 +33,29 @@ const FormBody = ({
   customerLastName,
   setCustomerLastName,
   customerEmail,
-  setCustomerEmail
+  setCustomerEmail,
+  clearTransaction
 }) => {
   const [dialogIsOpen, setDialogIsOpen] = useState(false);
   const classes = useStyles();
   return (
     <div className={classes.formWrapper}>
-      <Paper className={classes.formPaper} variant="outlined">
-        <CustomerInfo
-          customerFirstName={customerFirstName}
-          setCustomerFirstName={setCustomerFirstName}
-          customerLastName={customerLastName}
-          setCustomerLastName={setCustomerLastName}
-          customerEmail={customerEmail}
-          setCustomerEmail={setCustomerEmail}
-        />
+      <CustomerInfo
+        customerFirstName={customerFirstName}
+        setCustomerFirstName={setCustomerFirstName}
+        customerLastName={customerLastName}
+        setCustomerLastName={setCustomerLastName}
+        customerEmail={customerEmail}
+        setCustomerEmail={setCustomerEmail}
+        clearTransaction={clearTransaction}
+      />
 
-        <Charges
-          setDialogIsOpen={setDialogIsOpen}
-          charges={charges}
-          removeCharge={(index) => removeCharge(index, charges, setCharges)}
-        />
-      </Paper>
+      <Charges
+        setDialogIsOpen={setDialogIsOpen}
+        charges={charges}
+        removeCharge={(index) => removeCharge(index, charges, setCharges)}
+      />
+
       <AddChargeDialog
         charges={charges}
         dialogIsOpen={dialogIsOpen}
