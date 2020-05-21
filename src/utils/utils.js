@@ -1,7 +1,7 @@
 // this file consists of functions that are either intented to ultimately interface with
 // 3rd party services or are functions that would exist outside of the UI
 
-const formatTransactions = (transactions) => {
+exports.formatTransactions = (transactions) => {
   // reformatting shape of data to consolidate all transactions per one user
   const sortedTransactionsByEmail = transactions.sort((a, b) =>
     a.email.localeCompare(b.email)
