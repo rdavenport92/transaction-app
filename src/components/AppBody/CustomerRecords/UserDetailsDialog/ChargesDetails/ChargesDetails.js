@@ -15,7 +15,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 const ChargesDetails = ({ transaction }) => {
   return (
     <React.Fragment>
-      <ExpansionPanel>
+      <ExpansionPanel square={true} elevation={0}>
         <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
           <Typography>Total Charges: {transaction.charges.length}</Typography>
         </ExpansionPanelSummary>

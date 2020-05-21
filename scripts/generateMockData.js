@@ -60,7 +60,7 @@ async function generateTransactionData(users) {
 
       // generating random month ranging from now to 3 months ago
       const currentMonth = new Date().getMonth();
-      const monthToUse = currentMonth - generateRandomNumber(0, 3);
+      const monthToUse = currentMonth - generateRandomNumber(0, 5);
       const date = new Date(2020, monthToUse);
 
       return {
