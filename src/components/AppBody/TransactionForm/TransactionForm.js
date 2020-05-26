@@ -78,7 +78,7 @@ const TransactionForm = () => {
 
   useEffect(() => {
     // calculating total and points whenever charges are updated
-    (async function handleChargeUpdate() {
+    (async function () {
       const newTotal = calculateTotal(charges);
       setTotal(newTotal);
       const newPoints = await calculatePoints(newTotal);

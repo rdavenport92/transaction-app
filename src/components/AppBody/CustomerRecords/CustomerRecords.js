@@ -34,7 +34,7 @@ const CustomerRecords = () => {
   const [selectedUser, setSelectedUser] = useState({});
 
   useEffect(() => {
-    (async function fetchTransactionData() {
+    (async function () {
       const transactions = await fetchTransactions();
       setTransactions(transactions);
     })();
