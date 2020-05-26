@@ -1,7 +1,7 @@
 // this file consists of functions that are either intented to ultimately interface with
 // 3rd party services or are functions that would exist outside of the UI
 
-exports.formatTransactions = (transactions) => {
+const formatTransactions = (transactions) => {
   // reformatting shape of data to consolidate all transactions per one user
   const sortedTransactionsByEmail = transactions.sort((a, b) =>
     a.email.localeCompare(b.email)
@@ -59,7 +59,7 @@ exports.formatTransactions = (transactions) => {
   return reformattedTransactions;
 };
 
-exports.convertPriceToPoints = (price) =>
+const convertPriceToPoints = (price) =>
   // simulating fetching to accomplish this conversion to avoid declaring conversion rules in the UI
 
   new Promise((res) => {
@@ -77,7 +77,7 @@ exports.convertPriceToPoints = (price) =>
     res(points);
   });
 
-exports.postTransaction = (transactionDetails) =>
+const postTransaction = (transactionDetails) =>
   // simulating posting a transaction to the back end
   new Promise((res) => {
     const transactions = JSON.parse(
@@ -91,7 +91,7 @@ exports.postTransaction = (transactionDetails) =>
     res(transactionDetails);
   });
 
-exports.fetchTransactions = () => {
+const fetchTransactions = () => {
   return new Promise((res) => {
     const generatedTransactions = require('./mockData/mockData.json');
     const userCreatedTransactions = JSON.parse(
@@ -104,4 +104,11 @@ exports.fetchTransactions = () => {
     ]);
     res(allFormatedTransactions);
   });
+};
+
+module.exports = {
+  formatTransactions,
+  convertPriceToPoints,
+  postTransaction,
+  fetchTransactions
 };
